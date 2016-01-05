@@ -1,0 +1,147 @@
+/**
+  * Background.
+  */
+body {
+    background: #303030;
+}
+
+header,
+form {
+    background: #151515;
+}
+
+button {
+    background: #e5e5e5;
+}
+
+button:hover {
+    background: #ffffff;
+}
+
+/**
+  * Border.
+  */
+header,
+button,
+form {
+    border: 1px solid #e5e5e5;
+}
+
+/**
+  * Color.
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #c8c8c8;
+}
+
+a {
+    color: #3e3e3e;
+}
+
+.success {
+    color: #83fcaf;
+}
+
+.warning {
+    color: #f0fc80;
+}
+
+.error {
+    color: #fc3d35;
+}
+
+/**
+  * Cursor.
+  */
+button {
+    cursor: pointer;
+}
+
+/**
+  * Display.
+  */
+label,
+input {
+    display: inline-block;
+}
+
+div {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/**
+  * Font-Family.
+  */
+body {
+    font-family: sans-serif;
+}
+
+/**
+  * Margin.
+  */
+form {
+    margin: auto;
+}
+
+input,
+button {
+    margin: 2px;
+}
+
+/**
+  * Max width.
+  */
+form {
+    max-width: 420px;
+}
+
+/**
+  * Min width.
+  */
+form {
+    min-width: 420px;
+}
+
+/**
+  * Padding.
+  */
+label {
+    padding-left: 2px;
+}
+
+/**
+  * Text-Align.
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div {
+    text-align: center;
+}
+
+/**
+  * Width.
+  */
+label {
+    width: 33%;
+}
+
+input {
+    width: 63%;
+}

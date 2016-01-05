@@ -1,0 +1,93 @@
+/**
+  * Drawing canvas.
+  */
+.drawingCanvas {
+    background: #fff;
+    display: block;
+    margin: auto;
+    cursor: url(../img/cursor.png), crosshair;
+}
+
+.drawingPortfolio {
+    background: #fff;
+    display: block;
+    margin: auto;
+}
+
+.controls {
+    margin: auto;
+    width: 854px;
+    overflow: hidden;
+}
+
+/**
+ * Adding .controls to these guys messes up the selected class.
+ */
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+    display:block;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    border: 0;
+}
+
+.controls ul li {
+    display: inline-block;
+    margin: 2px;
+}
+
+.red {
+    background: #fc4c4f;
+}
+
+.blue {
+    background: #4fa3fc;
+}
+
+.yellow {
+    background: #ECD13F;
+}
+
+.selected {
+    border: 2px solid #fff;
+    width: 44px;
+    height: 44px;
+}
+
+#revealColorSelect {
+    border: none;
+    width: 160px;
+}
+
+/* New Color Palette */
+#colorSelect {
+    background: #151515;
+    border: 1px solid #e5e5e5;
+    margin: -2px auto 0;
+    width: 306px;
+    position: relative;
+}
+
+#newColor {
+    border: 1px solid #fff;
+    margin: auto;
+    width: 304px;
+    height: 24px;
+    display:block;
+}
+
+label {
+    width: 33%;
+}
+
+input {
+    width: 55%;
+}
